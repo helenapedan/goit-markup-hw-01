@@ -1,0 +1,173 @@
+:root{
+    --brand-color:#2196F3;
+    --main-color:#E5E5E5;;
+    --text-color: #757575;
+    --white-color: #fff;
+    --main-text-color: #212121;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    
+}
+
+.logo-link {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--main-text-color);
+}
+
+.logo-accent {
+    color: var(--brand-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+}
+
+.nav-link:hover, .header-contacts:hover{
+    color: var(--brand-color);
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+}
+
+.section-hero {
+    width: 1600px;
+    height: 600px;
+
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    
+    color: var(--white-color);
+    background-color:var(--brand-color);
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--main-text-color);
+}
+
+.advantage-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.teammate-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.teammate-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.footer-section {
+    width: 1600px;
+    height: 252px;
+
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--white-color)
+}
+
+.footer-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--white-color);
+}
+
+.footer-contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    color: var(--main-text-color);
+}
+
+.filter-button:hover {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--main-text-color);
+}
+
+.projects-text {
+    font-size: 16px;
+    line-height: 1.87;
+
+    color: var(--text-color);
+}
